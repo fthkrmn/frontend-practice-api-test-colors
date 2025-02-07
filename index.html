@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <form id="color_form">
+                <input id="color_seed" class="color_seed" type="color" value="#ff0000">
+                <select name="select_menu" id="select_menu">
+                    <option value="monochrome" selected>Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <input type="submit" value="Get color scheme">
+            </form>
+        </header>
+        
+        <section id="color_container">
+            <!-- colors will be listed here -->
+        </section>
+        
+        <footer id="color_values_container">
+            <!-- color hex values will be listed here -->
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
